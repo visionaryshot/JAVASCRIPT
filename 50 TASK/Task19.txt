@@ -1,0 +1,8 @@
+const magicNumber = 42;
+let userNumber = Int(prompt("Pick a number:"));
+if (userNumber === magicNumber) {
+   console.log("You found the magic number!");
+} 
+else {
+   console.log("Keep looking!");
+}

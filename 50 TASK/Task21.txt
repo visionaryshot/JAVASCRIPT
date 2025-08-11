@@ -1,0 +1,11 @@
+const secret = 8;
+let guess;
+do {
+    guess = Int(prompt("Guess the number:"));
+    if (guess === secret) {
+       console.log("Correct!");
+    } 
+    else {
+      console.log("Try again!");
+    }
+} while (guess !== secret);
